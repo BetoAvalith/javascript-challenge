@@ -57,7 +57,7 @@ const paddockManagers = [
       - Se debe programar un algoritmo para cada método y que este retorne lo requerido.
       - Debe usar nombres explicativos para sus variables.
       - Usar sintaxis ES6.     
-      - Su prueba debe ejecutarse sin errores con: node nombre-apellido.js
+      - Su prueba debe ejecutarse sin errores al correr los test.
       - Su prueba debe ejecutarse sin errores en la consola del inspector de Google Chrome
   */
   // Tip: Una hectárea equivale a 10.000m2
