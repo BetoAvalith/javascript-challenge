@@ -57,12 +57,7 @@ describe("Javascript Challenge", () => {
   });
 
   test("Pregunta N6 - biggestCherriesManagers", () => {
-    expect(biggestCherriesManagers()).toStrictEqual([
-      'CARLOS PEREZ GONZALEZ',
-      'JOAQUIN ANDRADE SANDOVAL',
-      'JUAN TAPIA BURGOS',
-      'OSCAR PEREZ ZUÑIGA'
-    ]);
+    expect(biggestCherriesManagers()).toStrictEqual(["EFRAIN SOTO VERA"]);
   });
 
   test("Pregunta N7 - farmManagerPaddocks", () => {
@@ -126,15 +121,7 @@ describe("Javascript Challenge", () => {
   });
 
   test("Pregunta N9 - newManagerRanking", () => {
-    expect(newManagerRanking()).toStrictEqual([
-      'OSCAR PEREZ ZUÑIGA',
-      'CARLOS PEREZ GONZALEZ',
-      'EFRAIN SOTO VERA',
-      'JOAQUIN ANDRADE SANDOVAL',
-      'JUAN TAPIA BURGOS',
-      'ANDRES VIÑALES CIENFUEGOS',
-      'JUAN PEDRO DOE'
-    ]);
+    expect(newManagerRanking()).toStrictEqual(7);
   });
 
 });
